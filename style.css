@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+:root{
+    --tipografia1: 'Gudea', sans-serif;
+    --tipografia2: 'Quicksand', sans-serif; 
+}
+
+/* Navbar */
+
+.navbar{ 
+    padding: 3px;
+}
+
+.estiloNav{
+    font-family: var(--tipografia2);
+    font-weight: 900;
+    background-color: dimgray;
+    color: white;
+}
+
+.logoNav{
+    width: 35%;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.navbar-brand:hover{
+    color:limegreen;
+}
+
+.linksNav{
+    color: silver;
+}
+
+.conferenciaLink{
+    color: white;
+}
+
+.linksNav:hover{
+    color: limegreen;
+}
+
+.ticketsLink{
+    color:limegreen;
+}
+.ticketsLink:hover{
+    color: white;
+}
+
+/* Carrousel */
+
+.carrouselPrincipal{
+    filter: brightness(50%);
+    background-color: black;
+    width: 100%;
+    height: 80%;
+}
+
+.textoCarrousel{
+    font-family: var(--tipografia2);
+    font-weight: 750;
+    margin: 3%;
+    width: 40%;
+    text-align: right;
+    color: white;
+    position: absolute;
+    right: 3%;
+    top: 30%;
+}
+
+/* footer */
+
+.estiloFooter{
+    background-color: #0F556D;
+    font-family: var(--tipografia1);
+}
+
+.linksFooter{
+    color: white;
+    padding: 3px;
+    
+}
+.linksFooter:hover{
+    color: limegreen;
+    text-decoration: none;
+}
+
+.flexFooter{
+    justify-content: space-around;
+}
