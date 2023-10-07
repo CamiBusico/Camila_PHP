@@ -104,6 +104,10 @@
     margin-right: 10%;
 }
 
+.cardBody{
+    width: 20rem;
+}
+
 .lenguajes{
     display: flex;
 }
@@ -266,4 +270,23 @@
 
 .flexFooter{
     justify-content: space-around;
+}
+
+
+@media only screen and (max-width:1200px){
+    .cardsOradores{
+        margin-left: 5%;
+        margin-right: 5%;
+    }  
+}
+
+@media only screen and (max-width:900px){
+    .cardsOradores{
+        margin-left: 2%;
+        margin-right: 2%;
+    }  
+
+    .cardBody{
+        width: 30%;
+    }
 }
